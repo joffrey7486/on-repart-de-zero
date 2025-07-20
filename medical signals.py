@@ -20,7 +20,7 @@ def medical_signals(frequence_cardiaque, temperature_corporelle, niveau_oxygene)
             break
 
          # Simulation d’évolution biologique à chaque cycle
-        frequence_cardiaque -= random.randint(3, 8)
+        frequence_cardiaque -= random.randint(2, 8)
         temperature_corporelle -= round(random.uniform(0.1, 0.4), 1)
         niveau_oxygene -= random.randint(1, 3)
 
