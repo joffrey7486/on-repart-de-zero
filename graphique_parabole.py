@@ -1,4 +1,4 @@
-def fonction_graphique(x):
+def fonction_graphique_parabole(x):
     result = x ** 2 - 2
     print(result)
 
