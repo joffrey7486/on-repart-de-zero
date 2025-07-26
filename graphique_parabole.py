@@ -2,10 +2,5 @@ def fonction_graphique_parabole(x):
     result = x ** 2 - 2
     print(result)
 
-fonction_graphique(-3)
-fonction_graphique(-2)
-fonction_graphique(-1)
-fonction_graphique(0)
-fonction_graphique(1)
-fonction_graphique(2)
-fonction_graphique(3)
+for i in range(-10, 10):  # range(-3,4) génère -3,-2,-1,0,1,2,3
+    fonction_graphique_parabole(i)
